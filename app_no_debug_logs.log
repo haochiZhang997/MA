@@ -1,0 +1,278 @@
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s1-1, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s2-1, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s2-2, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s3-1, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s3-2, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s4-1, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s5-1, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create Workstation(id=s5-2, idle=True, current_load=0.000, queue_length=0)
+2024-08-26 22:20:41,198 - INFO  - Create MyWarehouse(id=output-warehouse, items=[])
+2024-08-26 22:20:41,201 - INFO  - Create Job(id=1, routing=['s2', 's5', 's3', 's1'], process_times=[1.064 0.657 0.372 0.579], arrival_time=0.038, due_date=11.320, PST=8.647620112646186)
+2024-08-26 22:20:41,201 - INFO  - Create Job(id=2, routing=['s5', 's3', 's1'], process_times=[0.353 0.845 0.358], arrival_time=0.262, due_date=8.650, PST=7.093329519558079)
+2024-08-26 22:20:41,201 - INFO  - Create Job(id=3, routing=['s1', 's2', 's5'], process_times=[0.542 0.057 1.955], arrival_time=2.446, due_date=14.042, PST=11.487675505586765)
+2024-08-26 22:20:41,202 - INFO  - Create Job(id=4, routing=['s4', 's3'], process_times=[0.609 1.47 ], arrival_time=2.569, due_date=11.603, PST=9.524365570373519)
+2024-08-26 22:20:41,202 - INFO  - Create Job(id=5, routing=['s1', 's3', 's5'], process_times=[1.04  0.718 0.267], arrival_time=4.262, due_date=14.924, PST=12.89840911790711)
+2024-08-26 22:20:41,202 - INFO  - Create Job(id=6, routing=['s5', 's3', 's2', 's1'], process_times=[2.611 1.155 0.549 0.618], arrival_time=4.379, due_date=14.390, PST=9.457288026028326)
+2024-08-26 22:20:41,202 - INFO  - Create Job(id=7, routing=['s2', 's5'], process_times=[0.892 1.087], arrival_time=6.069, due_date=16.303, PST=14.324322451022194)
+2024-08-26 22:20:41,203 - INFO  - Create Job(id=8, routing=['s3', 's5', 's2', 's4', 's1'], process_times=[1.124 0.506 0.26  1.279 1.223], arrival_time=6.603, due_date=19.849, PST=15.457652319971293)
+2024-08-26 22:20:41,203 - INFO  - Create Job(id=9, routing=['s2', 's4', 's5', 's1'], process_times=[0.381 0.704 0.707 1.206], arrival_time=7.204, due_date=17.901, PST=14.902974233048914)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=10, routing=['s2', 's5'], process_times=[1.083 1.237], arrival_time=7.276, due_date=16.879, PST=14.558683234303814)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=11, routing=['s1', 's3', 's2', 's5', 's4'], process_times=[0.517 1.102 1.984 1.177 0.062], arrival_time=7.739, due_date=19.668, PST=14.826305148884538)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=12, routing=['s5', 's4'], process_times=[0.263 0.5  ], arrival_time=8.074, due_date=14.163, PST=13.398882738942142)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=13, routing=['s3', 's1', 's2'], process_times=[0.363 0.649 0.517], arrival_time=8.109, due_date=16.031, PST=14.501901329202783)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=14, routing=['s5', 's4'], process_times=[0.781 0.746], arrival_time=8.163, due_date=16.539, PST=15.01157388837935)
+2024-08-26 22:20:41,204 - INFO  - Create Job(id=15, routing=['s1', 's3'], process_times=[1.055 0.929], arrival_time=8.623, due_date=19.087, PST=17.1022387109332)
+2024-08-26 22:20:41,206 - INFO  - Create Job(id=16, routing=['s1', 's2', 's3', 's5'], process_times=[0.104 0.946 0.373 1.898], arrival_time=8.719, due_date=18.746, PST=15.424374412138736)
+2024-08-26 22:20:41,206 - INFO  - Create Job(id=17, routing=['s1', 's5'], process_times=[0.691 2.143], arrival_time=9.190, due_date=18.329, PST=15.494274850587122)
+2024-08-26 22:20:41,206 - INFO  - Create Job(id=18, routing=['s3', 's2'], process_times=[0.716 0.854], arrival_time=10.664, due_date=21.670, PST=20.09917617998216)
+2024-08-26 22:20:41,206 - INFO  - Create Job(id=19, routing=['s2', 's5', 's3', 's4', 's1'], process_times=[0.633 1.147 0.554 0.402 0.642], arrival_time=11.348, due_date=20.847, PST=17.469016686383014)
+2024-08-26 22:20:41,206 - INFO  - Create Job(id=20, routing=['s3', 's5'], process_times=[0.78  0.866], arrival_time=11.586, due_date=20.946, PST=19.299001942370005)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=21, routing=['s1', 's4', 's5', 's2'], process_times=[0.639 2.598 0.599 1.543], arrival_time=12.026, due_date=23.381, PST=18.002049873391147)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=22, routing=['s1', 's2'], process_times=[1.929 1.636], arrival_time=13.622, due_date=24.038, PST=20.472982840920878)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=23, routing=['s2', 's3'], process_times=[2.367 0.464], arrival_time=13.859, due_date=22.644, PST=19.813165249084413)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=24, routing=['s5', 's1'], process_times=[1.581 0.966], arrival_time=14.010, due_date=24.913, PST=22.366189430696124)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=25, routing=['s1', 's5', 's4', 's3'], process_times=[1.272 0.849 1.426 1.437], arrival_time=15.318, due_date=29.868, PST=24.884306240052638)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=26, routing=['s3', 's2', 's5'], process_times=[1.629 0.812 1.03 ], arrival_time=15.382, due_date=26.743, PST=23.27345921564456)
+2024-08-26 22:20:41,207 - INFO  - Create Job(id=27, routing=['s5', 's4', 's2'], process_times=[2.148 0.933 1.165], arrival_time=15.881, due_date=26.761, PST=22.51440838211618)
+2024-08-26 22:20:41,208 - INFO  - Create Job(id=28, routing=['s2', 's3', 's1', 's4', 's5'], process_times=[0.692 1.888 0.742 0.584 1.3  ], arrival_time=16.086, due_date=28.487, PST=23.280681026266777)
+2024-08-26 22:20:41,208 - INFO  - Create Job(id=29, routing=['s3', 's4', 's5', 's1'], process_times=[1.276 0.572 0.72  0.079], arrival_time=16.217, due_date=28.537, PST=25.8897589216515)
+2024-08-26 22:20:41,208 - INFO  - Create Job(id=30, routing=['s2', 's1'], process_times=[0.615 0.492], arrival_time=17.136, due_date=23.315, PST=22.20763821544808)
+2024-08-26 22:20:41,208 - INFO  - Create Job(id=31, routing=['s2', 's5', 's3'], process_times=[0.195 2.665 0.919], arrival_time=17.411, due_date=28.513, PST=24.73451329336228)
+2024-08-26 22:20:41,209 - INFO  - Create Job(id=32, routing=['s3', 's1'], process_times=[1.096 1.506], arrival_time=17.862, due_date=28.161, PST=25.558539936608398)
+2024-08-26 22:20:41,209 - INFO  - Create Job(id=33, routing=['s1', 's2'], process_times=[1.422 0.869], arrival_time=18.180, due_date=28.688, PST=26.396456635380943)
+2024-08-26 22:20:41,209 - INFO  - Create Job(id=34, routing=['s2', 's1'], process_times=[1.019 0.974], arrival_time=18.387, due_date=26.453, PST=24.460419457538503)
+2024-08-26 22:20:41,209 - INFO  - Create Job(id=35, routing=['s4', 's5', 's3'], process_times=[1.506 0.049 1.034], arrival_time=18.602, due_date=26.782, PST=24.192840083616993)
+2024-08-26 22:20:41,209 - INFO  - Create Job(id=36, routing=['s5', 's4'], process_times=[1.734 0.668], arrival_time=18.959, due_date=29.204, PST=26.801490104179198)
+2024-08-26 22:20:41,210 - INFO  - Create Job(id=37, routing=['s4', 's5', 's2', 's3'], process_times=[1.029 0.903 2.037 1.032], arrival_time=20.468, due_date=32.996, PST=27.99398334887092)
+2024-08-26 22:20:41,210 - INFO  - Create Job(id=38, routing=['s4', 's3', 's5', 's2', 's1'], process_times=[1.624 0.592 1.921 1.279 0.263], arrival_time=20.530, due_date=34.220, PST=28.54225407677507)
+2024-08-26 22:20:41,210 - INFO  - Create Job(id=39, routing=['s2', 's5', 's4', 's1', 's3'], process_times=[0.789 0.728 1.731 2.441 4.   ], arrival_time=21.285, due_date=40.159, PST=30.469690505359083)
+2024-08-26 22:20:41,210 - INFO  - Create Job(id=40, routing=['s1', 's4'], process_times=[1.466 0.65 ], arrival_time=21.340, due_date=28.881, PST=26.764041694974217)
+2024-08-26 22:20:41,210 - INFO  - Create Job(id=u1, routing=['s4', 's3', 's2', 's1'], process_times=[0.751 1.52  0.686 0.826], arrival_time=0.185, due_date=10.619, PST=6.836579234012434)
+2024-08-26 22:20:41,211 - INFO  - Create Job(id=u2, routing=['s5', 's2', 's4'], process_times=[0.379 0.553 0.749], arrival_time=0.753, due_date=12.244, PST=10.56353817891711)
+2024-08-26 22:20:41,211 - INFO  - Create Job(id=u3, routing=['s3', 's2', 's5', 's1'], process_times=[0.782 0.481 0.832 3.199], arrival_time=2.382, due_date=13.941, PST=8.647175029138833)
+2024-08-26 22:20:41,211 - INFO  - Create Job(id=u4, routing=['s3', 's5', 's2', 's1'], process_times=[0.935 1.752 0.326 0.659], arrival_time=4.329, due_date=17.453, PST=13.780132520445092)
+2024-08-26 22:20:41,211 - INFO  - Create Job(id=u5, routing=['s5', 's3', 's2', 's1', 's4'], process_times=[0.671 0.548 0.147 0.319 0.488], arrival_time=4.927, due_date=13.454, PST=11.281880600945424)
+2024-08-26 22:20:41,212 - INFO  - Create Job(id=u6, routing=['s4', 's5'], process_times=[1.527 0.478], arrival_time=6.283, due_date=16.047, PST=14.041180767952977)
+2024-08-26 22:20:41,212 - INFO  - Create Job(id=u7, routing=['s3', 's4'], process_times=[2.633 0.321], arrival_time=8.554, due_date=20.718, PST=17.764239164146794)
+2024-08-26 22:20:41,212 - INFO  - Create Job(id=u8, routing=['s4', 's3'], process_times=[0.111 0.595], arrival_time=9.049, due_date=18.505, PST=17.798473120167543)
+2024-08-26 22:20:41,212 - INFO  - Create Job(id=u9, routing=['s2', 's4', 's1', 's3'], process_times=[1.517 2.487 0.608 0.429], arrival_time=9.771, due_date=22.903, PST=17.86132211649143)
+2024-08-26 22:20:41,212 - INFO  - Create Job(id=u10, routing=['s1', 's3', 's4', 's5', 's2'], process_times=[1.786 0.625 1.028 0.416 1.115], arrival_time=10.398, due_date=23.889, PST=18.918602285353387)
+2024-08-26 22:20:41,213 - INFO  - 0.00: Start LUMS COR order release control
+2024-08-26 22:20:41,214 - INFO  - 1.00: Continous release triggered: Found job 1 for Station s2-1.
+2024-08-26 22:20:41,214 - INFO  - 1.00: job 1 is released, adding workload 1.0637601694733112 to Station s2-1
+2024-08-26 22:20:41,214 - INFO  - 1.00: Continous release triggered: Found job u1 for Station s4-1.
+2024-08-26 22:20:41,215 - INFO  - 1.00: job u1 is released, adding workload 0.7508534723694744 to Station s4-1
+2024-08-26 22:20:41,215 - INFO  - 1.00: Continous release triggered: Found job u2 for Station s5-1.
+2024-08-26 22:20:41,215 - INFO  - 1.00: job u2 is released, adding workload 0.3786903007951913 to Station s5-1
+2024-08-26 22:20:41,216 - INFO  - 1.00: Continous release triggered: Found job 2 for Station s5-2.
+2024-08-26 22:20:41,216 - INFO  - 1.00: job 2 is released, adding workload 0.3534883610072093 to Station s5-2
+2024-08-26 22:20:41,218 - INFO  - 2.75: Continous release triggered: Found job 4 for Station s4-1.
+2024-08-26 22:20:41,218 - INFO  - 2.75: job 4 is released, adding workload 0.6086935121664181 to Station s4-1
+2024-08-26 22:20:41,219 - INFO  - 3.00: Continous release triggered: Found job 3 for Station s1-1.
+2024-08-26 22:20:41,219 - INFO  - 3.00: job 3 is released, adding workload 0.5422329866435884 to Station s1-1
+2024-08-26 22:20:41,219 - INFO  - 3.00: Continous release triggered: Found job u3 for Station s3-2.
+2024-08-26 22:20:41,219 - INFO  - 3.00: job u3 is released, adding workload 0.7817514106031367 to Station s3-2
+2024-08-26 22:20:41,222 - INFO  - 4.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,224 - INFO  - 4.90: Continous release triggered: Found job 5 for Station s1-1.
+2024-08-26 22:20:41,224 - INFO  - 4.90: job 5 is released, adding workload 1.0400422374599452 to Station s1-1
+2024-08-26 22:20:41,224 - INFO  - 5.04: Continous release triggered: Found job u5 for Station s5-1.
+2024-08-26 22:20:41,224 - INFO  - 5.04: job u5 is released, adding workload 0.6709475430618039 to Station s5-1
+2024-08-26 22:20:41,224 - INFO  - 5.35: Continous release triggered: Found job 6 for Station s5-2.
+2024-08-26 22:20:41,226 - INFO  - 5.35: job 6 is released, adding workload 2.6105278465527335 to Station s5-2
+2024-08-26 22:20:41,227 - INFO  - 5.74: Continous release triggered: Found job u4 for Station s3-1.
+2024-08-26 22:20:41,227 - INFO  - 5.74: job u4 is released, adding workload 0.9352270760934716 to Station s3-1
+2024-08-26 22:20:41,230 - INFO  - 6.78: Continous release triggered: Found job 7 for Station s2-2.
+2024-08-26 22:20:41,230 - INFO  - 6.78: job 7 is released, adding workload 0.8915908037174762 to Station s2-1
+2024-08-26 22:20:41,231 - INFO  - 7.11: Continous release triggered: Found job u6 for Station s4-1.
+2024-08-26 22:20:41,231 - INFO  - 7.11: job u6 is released, adding workload 1.5272186638807708 to Station s4-1
+2024-08-26 22:20:41,232 - INFO  - 7.67: Continous release triggered: Found job 8 for Station s3-1.
+2024-08-26 22:20:41,232 - INFO  - 7.67: job 8 is released, adding workload 1.1239599891031489 to Station s3-1
+2024-08-26 22:20:41,233 - INFO  - 7.78: Continous release triggered: Found job 9 for Station s2-2.
+2024-08-26 22:20:41,233 - INFO  - 7.78: job 9 is released, adding workload 0.38129884596950336 to Station s2-2
+2024-08-26 22:20:41,234 - INFO  - 8.00: New round of Periodic Order Release: there remains 2 jobs.
+2024-08-26 22:20:41,234 - INFO  - 8.00: Periodic release: Checking job 10, routing info: ['s2', 's5']
+2024-08-26 22:20:41,234 - INFO  - 8.00: Current workload: {'s1-1': 1.04, 's2-1': 0.147, 's2-2': 0.381, 's3-1': 1.124, 's3-2': 0.0, 's4-1': 1.527, 's5-1': 4.539, 's5-2': 3.697}
+2024-08-26 22:20:41,235 - INFO  - 8.00: job 10 is released, adding workload 1.0829234049310814 to Station s2-1
+2024-08-26 22:20:41,236 - INFO  - 8.00: Periodic release: Checking job 11, routing info: ['s1', 's3', 's2', 's5', 's4']
+2024-08-26 22:20:41,236 - INFO  - 8.00: Current workload: {'s1-1': 1.04, 's2-1': 1.23, 's2-2': 0.381, 's3-1': 1.124, 's3-2': 0.0, 's4-1': 1.527, 's5-1': 4.539, 's5-2': 3.697}
+2024-08-26 22:20:41,236 - INFO  - 8.00: job 11 is released, adding workload 0.5168933240527767 to Station s1-1
+2024-08-26 22:20:41,241 - INFO  - 9.80: Continous release triggered: Found job u7 for Station s3-1.
+2024-08-26 22:20:41,242 - INFO  - 9.80: job u7 is released, adding workload 2.6329997992179517 to Station s3-1
+2024-08-26 22:20:41,243 - INFO  - 10.16: Continous release triggered: Found job u9 for Station s2-2.
+2024-08-26 22:20:41,243 - INFO  - 10.16: job u9 is released, adding workload 1.5172340135937623 to Station s2-1
+2024-08-26 22:20:41,245 - INFO  - 10.67: Continous release triggered: Found job 13 for Station s3-2.
+2024-08-26 22:20:41,246 - INFO  - 10.67: job 13 is released, adding workload 0.3626218781146849 to Station s3-2
+2024-08-26 22:20:41,247 - INFO  - 10.83: Continous release triggered: Found job u8 for Station s4-1.
+2024-08-26 22:20:41,247 - INFO  - 10.83: job u8 is released, adding workload 0.11102470583548632 to Station s4-1
+2024-08-26 22:20:41,250 - INFO  - 12.00: New round of Periodic Order Release: there remains 9 jobs.
+2024-08-26 22:20:41,250 - INFO  - 12.00: Periodic release: Checking job u10, routing info: ['s1', 's3', 's4', 's5', 's2']
+2024-08-26 22:20:41,250 - INFO  - 12.00: Current workload: {'s1-1': 0.517, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 1.213}
+2024-08-26 22:20:41,250 - INFO  - 12.00: job u10 is released, adding workload 1.7862828620951432 to Station s1-1
+2024-08-26 22:20:41,251 - INFO  - 12.00: Periodic release: Checking job 12, routing info: ['s5', 's4']
+2024-08-26 22:20:41,251 - INFO  - 12.00: Current workload: {'s1-1': 2.303, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 1.213}
+2024-08-26 22:20:41,251 - INFO  - 12.00: job 12 is released, adding workload 0.2633791152289344 to Station s5-2
+2024-08-26 22:20:41,251 - INFO  - 12.00: Periodic release: Checking job 14, routing info: ['s5', 's4']
+2024-08-26 22:20:41,251 - INFO  - 12.00: Current workload: {'s1-1': 2.303, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 1.476}
+2024-08-26 22:20:41,251 - INFO  - 12.00: job 14 is released, adding workload 0.7809852888457183 to Station s5-2
+2024-08-26 22:20:41,251 - INFO  - 12.00: Periodic release: Checking job 15, routing info: ['s1', 's3']
+2024-08-26 22:20:41,252 - INFO  - 12.00: Current workload: {'s1-1': 2.303, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,252 - INFO  - 12.00: job 15 is released, adding workload 1.0550329301759358 to Station s1-1
+2024-08-26 22:20:41,252 - INFO  - 12.00: Periodic release: Checking job 16, routing info: ['s1', 's2', 's3', 's5']
+2024-08-26 22:20:41,252 - INFO  - 12.00: Current workload: {'s1-1': 3.358, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,252 - INFO  - 12.00: job 16 is released, adding workload 0.10416558504880219 to Station s1-1
+2024-08-26 22:20:41,252 - INFO  - 12.00: Periodic release: Checking job 17, routing info: ['s1', 's5']
+2024-08-26 22:20:41,252 - INFO  - 12.00: Current workload: {'s1-1': 3.462, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,253 - INFO  - 12.00: job 17 is released, adding workload 0.6911679382922276 to Station s1-1
+2024-08-26 22:20:41,253 - INFO  - 12.00: Periodic release: Checking job 18, routing info: ['s3', 's2']
+2024-08-26 22:20:41,253 - INFO  - 12.00: Current workload: {'s1-1': 4.154, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 0.958, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,253 - INFO  - 12.00: job 18 is released, adding workload 0.7161187676472643 to Station s3-2
+2024-08-26 22:20:41,253 - INFO  - 12.00: Periodic release: Checking job 19, routing info: ['s2', 's5', 's3', 's4', 's1']
+2024-08-26 22:20:41,253 - INFO  - 12.00: Current workload: {'s1-1': 4.154, 's2-1': 0.549, 's2-2': 0.0, 's3-1': 2.633, 's3-2': 1.674, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,253 - INFO  - 12.00: job 19 is released, adding workload 0.6327283009868262 to Station s2-2
+2024-08-26 22:20:41,253 - INFO  - 12.00: Periodic release: Checking job 20, routing info: ['s3', 's5']
+2024-08-26 22:20:41,253 - INFO  - 12.00: Current workload: {'s1-1': 4.154, 's2-1': 0.549, 's2-2': 0.633, 's3-1': 2.633, 's3-2': 1.674, 's4-1': 2.487, 's5-1': 1.752, 's5-2': 2.257}
+2024-08-26 22:20:41,254 - INFO  - 12.00: job 20 is released, adding workload 0.7801302050312393 to Station s3-2
+2024-08-26 22:20:41,263 - INFO  - 14.02: Continous release triggered: Found job 24 for Station s5-2.
+2024-08-26 22:20:41,263 - INFO  - 14.02: job 24 is released, adding workload 1.5807587709408368 to Station s5-2
+2024-08-26 22:20:41,265 - INFO  - 14.58: Continous release triggered: Found job 23 for Station s2-1.
+2024-08-26 22:20:41,265 - INFO  - 14.58: job 23 is released, adding workload 2.366706092700692 to Station s2-1
+2024-08-26 22:20:41,268 - INFO  - 15.43: Continous release triggered: Found job 26 for Station s3-1.
+2024-08-26 22:20:41,269 - INFO  - 15.43: job 26 is released, adding workload 1.6285212756172838 to Station s3-1
+2024-08-26 22:20:41,271 - INFO  - 16.00: New round of Periodic Order Release: there remains 4 jobs.
+2024-08-26 22:20:41,271 - INFO  - 16.00: Periodic release: Checking job 21, routing info: ['s1', 's4', 's5', 's2']
+2024-08-26 22:20:41,272 - INFO  - 16.00: Current workload: {'s1-1': 4.108, 's2-1': 2.367, 's2-2': 3.099, 's3-1': 1.629, 's3-2': 0.373, 's4-1': 0.402, 's5-1': 3.01, 's5-2': 1.581}
+2024-08-26 22:20:41,272 - INFO  - 16.00: job 21 is released, adding workload 0.6385172946994522 to Station s1-1
+2024-08-26 22:20:41,272 - INFO  - 16.00: Periodic release: Checking job 22, routing info: ['s1', 's2']
+2024-08-26 22:20:41,272 - INFO  - 16.00: Current workload: {'s1-1': 4.747, 's2-1': 2.367, 's2-2': 3.099, 's3-1': 1.629, 's3-2': 0.373, 's4-1': 0.402, 's5-1': 3.01, 's5-2': 1.581}
+2024-08-26 22:20:41,272 - INFO  - 16.00: Exceeding the normal load! job 22 cannot be released to the station s1-1
+2024-08-26 22:20:41,272 - INFO  - 16.00: Periodic release: Checking job 25, routing info: ['s1', 's5', 's4', 's3']
+2024-08-26 22:20:41,272 - INFO  - 16.00: Current workload: {'s1-1': 4.747, 's2-1': 2.367, 's2-2': 3.099, 's3-1': 1.629, 's3-2': 0.373, 's4-1': 0.402, 's5-1': 3.01, 's5-2': 1.581}
+2024-08-26 22:20:41,272 - INFO  - 16.00: Exceeding the normal load! job 25 cannot be released to the station s1-1
+2024-08-26 22:20:41,272 - INFO  - 16.00: Periodic release: Checking job 27, routing info: ['s5', 's4', 's2']
+2024-08-26 22:20:41,272 - INFO  - 16.00: Current workload: {'s1-1': 4.747, 's2-1': 2.367, 's2-2': 3.099, 's3-1': 1.629, 's3-2': 0.373, 's4-1': 0.402, 's5-1': 3.01, 's5-2': 1.581}
+2024-08-26 22:20:41,273 - INFO  - 16.00: job 27 is released, adding workload 2.14830004938212 to Station s5-2
+2024-08-26 22:20:41,275 - INFO  - 17.16: Continous release triggered: Found job 29 for Station s3-2.
+2024-08-26 22:20:41,275 - INFO  - 17.16: job 29 is released, adding workload 1.2759762839208981 to Station s3-2
+2024-08-26 22:20:41,277 - INFO  - 17.94: Continous release triggered: Found job 28 for Station s2-1.
+2024-08-26 22:20:41,277 - INFO  - 17.94: job 28 is released, adding workload 0.6920857959532908 to Station s2-1
+2024-08-26 22:20:41,279 - INFO  - 18.35: Continous release triggered: Found job 30 for Station s2-2.
+2024-08-26 22:20:41,279 - INFO  - 18.35: job 30 is released, adding workload 0.6153458821557493 to Station s2-2
+2024-08-26 22:20:41,280 - INFO  - 18.52: Continous release triggered: Found job 32 for Station s3-1.
+2024-08-26 22:20:41,280 - INFO  - 18.52: job 32 is released, adding workload 1.0964829426693254 to Station s3-1
+2024-08-26 22:20:41,284 - INFO  - 19.57: Continous release triggered: Found job 36 for Station s5-1.
+2024-08-26 22:20:41,284 - INFO  - 19.57: job 36 is released, adding workload 1.7344857758394236 to Station s5-1
+2024-08-26 22:20:41,286 - INFO  - 19.97: Continous release triggered: Found job 31 for Station s2-2.
+2024-08-26 22:20:41,286 - INFO  - 19.97: job 31 is released, adding workload 0.1952120583232885 to Station s2-2
+2024-08-26 22:20:41,286 - INFO  - 20.00: New round of Periodic Order Release: there remains 5 jobs.
+2024-08-26 22:20:41,286 - INFO  - 20.00: Periodic release: Checking job 22, routing info: ['s1', 's2']
+2024-08-26 22:20:41,286 - INFO  - 20.00: Current workload: {'s1-1': 3.931, 's2-1': 0.812, 's2-2': 0.195, 's3-1': 2.985, 's3-2': 1.901, 's4-1': 3.593, 's5-1': 1.734, 's5-2': 0.0}
+2024-08-26 22:20:41,286 - INFO  - 20.00: Exceeding the normal load! job 22 cannot be released to the station s1-1
+2024-08-26 22:20:41,287 - INFO  - 20.00: Periodic release: Checking job 25, routing info: ['s1', 's5', 's4', 's3']
+2024-08-26 22:20:41,287 - INFO  - 20.00: Current workload: {'s1-1': 3.931, 's2-1': 0.812, 's2-2': 0.195, 's3-1': 2.985, 's3-2': 1.901, 's4-1': 3.593, 's5-1': 1.734, 's5-2': 0.0}
+2024-08-26 22:20:41,287 - INFO  - 20.00: Exceeding the normal load! job 25 cannot be released to the station s1-1
+2024-08-26 22:20:41,287 - INFO  - 20.00: Periodic release: Checking job 33, routing info: ['s1', 's2']
+2024-08-26 22:20:41,287 - INFO  - 20.00: Current workload: {'s1-1': 3.931, 's2-1': 0.812, 's2-2': 0.195, 's3-1': 2.985, 's3-2': 1.901, 's4-1': 3.593, 's5-1': 1.734, 's5-2': 0.0}
+2024-08-26 22:20:41,287 - INFO  - 20.00: Exceeding the normal load! job 33 cannot be released to the station s1-1
+2024-08-26 22:20:41,287 - INFO  - 20.00: Periodic release: Checking job 34, routing info: ['s2', 's1']
+2024-08-26 22:20:41,287 - INFO  - 20.00: Current workload: {'s1-1': 3.931, 's2-1': 0.812, 's2-2': 0.195, 's3-1': 2.985, 's3-2': 1.901, 's4-1': 3.593, 's5-1': 1.734, 's5-2': 0.0}
+2024-08-26 22:20:41,288 - INFO  - 20.00: job 34 is released, adding workload 1.0187057690883174 to Station s2-2
+2024-08-26 22:20:41,288 - INFO  - 20.00: Periodic release: Checking job 35, routing info: ['s4', 's5', 's3']
+2024-08-26 22:20:41,288 - INFO  - 20.00: Current workload: {'s1-1': 3.931, 's2-1': 0.812, 's2-2': 1.214, 's3-1': 2.985, 's3-2': 1.901, 's4-1': 3.593, 's5-1': 1.734, 's5-2': 0.0}
+2024-08-26 22:20:41,288 - INFO  - 20.00: Exceeding the normal load! job 35 cannot be released to the station s4-1
+2024-08-26 22:20:41,292 - INFO  - 21.45: Continous release triggered: Found job 39 for Station s2-1.
+2024-08-26 22:20:41,292 - INFO  - 21.45: job 39 is released, adding workload 0.7887644629035072 to Station s2-1
+2024-08-26 22:20:41,301 - INFO  - 24.00: New round of Periodic Order Release: there remains 7 jobs.
+2024-08-26 22:20:41,301 - INFO  - 24.00: Periodic release: Checking job 22, routing info: ['s1', 's2']
+2024-08-26 22:20:41,301 - INFO  - 24.00: Current workload: {'s1-1': 3.222, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 2.172, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,301 - INFO  - 24.00: Exceeding the normal load! job 22 cannot be released to the station s1-1
+2024-08-26 22:20:41,301 - INFO  - 24.00: Periodic release: Checking job 25, routing info: ['s1', 's5', 's4', 's3']
+2024-08-26 22:20:41,301 - INFO  - 24.00: Current workload: {'s1-1': 3.222, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 2.172, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,302 - INFO  - 24.00: job 25 is released, adding workload 1.2720504901078717 to Station s1-1
+2024-08-26 22:20:41,302 - INFO  - 24.00: Periodic release: Checking job 33, routing info: ['s1', 's2']
+2024-08-26 22:20:41,302 - INFO  - 24.00: Current workload: {'s1-1': 4.494, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 2.172, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,302 - INFO  - 24.00: Exceeding the normal load! job 33 cannot be released to the station s1-1
+2024-08-26 22:20:41,302 - INFO  - 24.00: Periodic release: Checking job 35, routing info: ['s4', 's5', 's3']
+2024-08-26 22:20:41,302 - INFO  - 24.00: Current workload: {'s1-1': 4.494, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 2.172, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,302 - INFO  - 24.00: job 35 is released, adding workload 1.506200456337222 to Station s4-1
+2024-08-26 22:20:41,302 - INFO  - 24.00: Periodic release: Checking job 37, routing info: ['s4', 's5', 's2', 's3']
+2024-08-26 22:20:41,303 - INFO  - 24.00: Current workload: {'s1-1': 4.494, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 3.678, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,303 - INFO  - 24.00: job 37 is released, adding workload 1.0291550563928733 to Station s4-1
+2024-08-26 22:20:41,303 - INFO  - 24.00: Periodic release: Checking job 38, routing info: ['s4', 's3', 's5', 's2', 's1']
+2024-08-26 22:20:41,303 - INFO  - 24.00: Current workload: {'s1-1': 4.494, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 4.707, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,303 - INFO  - 24.00: Exceeding the normal load! job 38 cannot be released to the station s4-1
+2024-08-26 22:20:41,303 - INFO  - 24.00: Periodic release: Checking job 40, routing info: ['s1', 's4']
+2024-08-26 22:20:41,303 - INFO  - 24.00: Current workload: {'s1-1': 4.494, 's2-1': 1.543, 's2-2': 1.115, 's3-1': 0.0, 's3-2': 0.0, 's4-1': 4.707, 's5-1': 0.0, 's5-2': 3.393}
+2024-08-26 22:20:41,303 - INFO  - 24.00: Exceeding the normal load! job 40 cannot be released to the station s1-1
+2024-08-26 22:20:41,313 - INFO  - 28.00: New round of Periodic Order Release: there remains 4 jobs.
+2024-08-26 22:20:41,313 - INFO  - 28.00: Periodic release: Checking job 22, routing info: ['s1', 's2']
+2024-08-26 22:20:41,313 - INFO  - 28.00: Current workload: {'s1-1': 1.585, 's2-1': 0.0, 's2-2': 0.0, 's3-1': 0.0, 's3-2': 0.919, 's4-1': 2.093, 's5-1': 2.203, 's5-2': 0.728}
+2024-08-26 22:20:41,313 - INFO  - 28.00: job 22 is released, adding workload 1.9290259667842884 to Station s1-1
+2024-08-26 22:20:41,313 - INFO  - 28.00: Periodic release: Checking job 33, routing info: ['s1', 's2']
+2024-08-26 22:20:41,313 - INFO  - 28.00: Current workload: {'s1-1': 3.514, 's2-1': 0.0, 's2-2': 0.0, 's3-1': 0.0, 's3-2': 0.919, 's4-1': 2.093, 's5-1': 2.203, 's5-2': 0.728}
+2024-08-26 22:20:41,313 - INFO  - 28.00: job 33 is released, adding workload 1.422062264027273 to Station s1-1
+2024-08-26 22:20:41,314 - INFO  - 28.00: Periodic release: Checking job 38, routing info: ['s4', 's3', 's5', 's2', 's1']
+2024-08-26 22:20:41,314 - INFO  - 28.00: Current workload: {'s1-1': 4.936, 's2-1': 0.0, 's2-2': 0.0, 's3-1': 0.0, 's3-2': 0.919, 's4-1': 2.093, 's5-1': 2.203, 's5-2': 0.728}
+2024-08-26 22:20:41,314 - INFO  - 28.00: job 38 is released, adding workload 1.6236394983683768 to Station s4-1
+2024-08-26 22:20:41,314 - INFO  - 28.00: Periodic release: Checking job 40, routing info: ['s1', 's4']
+2024-08-26 22:20:41,314 - INFO  - 28.00: Current workload: {'s1-1': 4.936, 's2-1': 0.0, 's2-2': 0.0, 's3-1': 0.0, 's3-2': 0.919, 's4-1': 3.717, 's5-1': 2.203, 's5-2': 0.728}
+2024-08-26 22:20:41,314 - INFO  - 28.00: Exceeding the normal load! job 40 cannot be released to the station s1-1
+2024-08-26 22:20:41,322 - INFO  - 31.64: Continous release triggered: Found job 40 for Station s1-1.
+2024-08-26 22:20:41,322 - INFO  - 31.64: job 40 is released, adding workload 1.4661971627308406 to Station s1-1
+2024-08-26 22:20:41,323 - INFO  - 32.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,329 - INFO  - 36.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,332 - INFO  - 40.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,335 - INFO  - 44.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,338 - INFO  - 48.00: New round of Periodic Order Release: there remains 0 jobs.
+2024-08-26 22:20:41,341 - INFO  - Simulation finished
+2024-08-26 22:20:41,341 - INFO  - warehouse output-warehouse has 50 items: 
+2024-08-26 22:20:41,341 - INFO  - Job(id=2, arrival_time=0.262, finish_time=4.358, total_process_time=1.557, due_date=8.650, overdue=-4.292)
+2024-08-26 22:20:41,343 - INFO  - Job(id=u2, arrival_time=0.753, finish_time=5.108, total_process_time=1.680, due_date=12.244, overdue=-7.135)
+2024-08-26 22:20:41,343 - INFO  - Job(id=4, arrival_time=2.569, finish_time=6.252, total_process_time=2.079, due_date=11.603, overdue=-5.351)
+2024-08-26 22:20:41,343 - INFO  - Job(id=1, arrival_time=0.038, finish_time=6.479, total_process_time=2.672, due_date=11.320, overdue=-4.841)
+2024-08-26 22:20:41,343 - INFO  - Job(id=u1, arrival_time=0.185, finish_time=7.305, total_process_time=3.782, due_date=10.619, overdue=-3.314)
+2024-08-26 22:20:41,343 - INFO  - Job(id=7, arrival_time=6.069, finish_time=10.051, total_process_time=1.978, due_date=16.303, overdue=-6.252)
+2024-08-26 22:20:41,343 - INFO  - Job(id=u5, arrival_time=4.927, finish_time=10.124, total_process_time=2.172, due_date=13.454, overdue=-3.331)
+2024-08-26 22:20:41,343 - INFO  - Job(id=3, arrival_time=2.446, finish_time=10.494, total_process_time=2.554, due_date=14.042, overdue=-3.548)
+2024-08-26 22:20:41,343 - INFO  - Job(id=u6, arrival_time=6.283, finish_time=10.529, total_process_time=2.006, due_date=16.047, overdue=-5.517)
+2024-08-26 22:20:41,344 - INFO  - Job(id=5, arrival_time=4.262, finish_time=10.761, total_process_time=2.025, due_date=14.924, overdue=-4.163)
+2024-08-26 22:20:41,344 - INFO  - Job(id=10, arrival_time=7.276, finish_time=11.767, total_process_time=2.320, due_date=16.879, overdue=-5.112)
+2024-08-26 22:20:41,344 - INFO  - Job(id=u3, arrival_time=2.382, finish_time=11.863, total_process_time=5.294, due_date=13.941, overdue=-2.079)
+2024-08-26 22:20:41,344 - INFO  - Job(id=u8, arrival_time=9.049, finish_time=12.630, total_process_time=0.706, due_date=18.505, overdue=-5.874)
+2024-08-26 22:20:41,344 - INFO  - Job(id=6, arrival_time=4.379, finish_time=12.997, total_process_time=4.932, due_date=14.390, overdue=-1.393)
+2024-08-26 22:20:41,344 - INFO  - Job(id=13, arrival_time=8.109, finish_time=14.308, total_process_time=1.529, due_date=16.031, overdue=-1.723)
+2024-08-26 22:20:41,344 - INFO  - Job(id=12, arrival_time=8.074, finish_time=14.926, total_process_time=0.764, due_date=14.163, overdue=0.763)
+2024-08-26 22:20:41,344 - INFO  - Job(id=9, arrival_time=7.204, finish_time=15.647, total_process_time=2.998, due_date=17.901, overdue=-2.253)
+2024-08-26 22:20:41,344 - INFO  - Job(id=14, arrival_time=8.163, finish_time=15.672, total_process_time=1.527, due_date=16.539, overdue=-0.866)
+2024-08-26 22:20:41,345 - INFO  - Job(id=u7, arrival_time=8.554, finish_time=15.993, total_process_time=2.954, due_date=20.718, overdue=-4.725)
+2024-08-26 22:20:41,345 - INFO  - Job(id=u4, arrival_time=4.329, finish_time=16.306, total_process_time=3.672, due_date=17.453, overdue=-1.147)
+2024-08-26 22:20:41,345 - INFO  - Job(id=17, arrival_time=9.190, finish_time=16.803, total_process_time=2.834, due_date=18.329, overdue=-1.526)
+2024-08-26 22:20:41,345 - INFO  - Job(id=18, arrival_time=10.664, finish_time=18.353, total_process_time=1.570, due_date=21.670, overdue=-3.317)
+2024-08-26 22:20:41,345 - INFO  - Job(id=23, arrival_time=13.859, finish_time=18.522, total_process_time=2.831, due_date=22.644, overdue=-4.122)
+2024-08-26 22:20:41,345 - INFO  - Job(id=16, arrival_time=8.719, finish_time=18.701, total_process_time=3.321, due_date=18.746, overdue=-0.045)
+2024-08-26 22:20:41,346 - INFO  - Job(id=15, arrival_time=8.623, finish_time=19.085, total_process_time=1.984, due_date=19.087, overdue=-0.002)
+2024-08-26 22:20:41,346 - INFO  - Job(id=20, arrival_time=11.586, finish_time=19.567, total_process_time=1.647, due_date=20.946, overdue=-1.378)
+2024-08-26 22:20:41,346 - INFO  - Job(id=8, arrival_time=6.603, finish_time=21.008, total_process_time=4.391, due_date=19.849, overdue=1.160)
+2024-08-26 22:20:41,346 - INFO  - Job(id=19, arrival_time=11.348, finish_time=21.651, total_process_time=3.378, due_date=20.847, overdue=0.804)
+2024-08-26 22:20:41,346 - INFO  - Job(id=26, arrival_time=15.382, finish_time=21.960, total_process_time=3.470, due_date=26.743, overdue=-4.783)
+2024-08-26 22:20:41,347 - INFO  - Job(id=11, arrival_time=7.739, finish_time=22.334, total_process_time=4.842, due_date=19.668, overdue=2.666)
+2024-08-26 22:20:41,347 - INFO  - Job(id=30, arrival_time=17.136, finish_time=22.751, total_process_time=1.107, due_date=23.315, overdue=-0.564)
+2024-08-26 22:20:41,347 - INFO  - Job(id=u9, arrival_time=9.771, finish_time=23.416, total_process_time=5.042, due_date=22.903, overdue=0.512)
+2024-08-26 22:20:41,348 - INFO  - Job(id=24, arrival_time=14.010, finish_time=23.717, total_process_time=2.547, due_date=24.913, overdue=-1.196)
+2024-08-26 22:20:41,348 - INFO  - Job(id=34, arrival_time=18.387, finish_time=24.691, total_process_time=1.993, due_date=26.453, overdue=-1.762)
+2024-08-26 22:20:41,348 - INFO  - Job(id=u10, arrival_time=10.398, finish_time=25.297, total_process_time=4.971, due_date=23.889, overdue=1.408)
+2024-08-26 22:20:41,348 - INFO  - Job(id=21, arrival_time=12.026, finish_time=25.780, total_process_time=5.379, due_date=23.381, overdue=2.399)
+2024-08-26 22:20:41,348 - INFO  - Job(id=27, arrival_time=15.881, finish_time=26.945, total_process_time=4.246, due_date=26.761, overdue=0.185)
+2024-08-26 22:20:41,349 - INFO  - Job(id=35, arrival_time=18.602, finish_time=27.541, total_process_time=2.589, due_date=26.782, overdue=0.759)
+2024-08-26 22:20:41,349 - INFO  - Job(id=32, arrival_time=17.862, finish_time=28.211, total_process_time=2.602, due_date=28.161, overdue=0.050)
+2024-08-26 22:20:41,349 - INFO  - Job(id=31, arrival_time=17.411, finish_time=28.334, total_process_time=3.778, due_date=28.513, overdue=-0.179)
+2024-08-26 22:20:41,350 - INFO  - Job(id=28, arrival_time=16.086, finish_time=29.499, total_process_time=5.207, due_date=28.487, overdue=1.012)
+2024-08-26 22:20:41,350 - INFO  - Job(id=36, arrival_time=18.959, finish_time=30.079, total_process_time=2.402, due_date=29.204, overdue=0.875)
+2024-08-26 22:20:41,350 - INFO  - Job(id=25, arrival_time=15.318, finish_time=30.978, total_process_time=4.983, due_date=29.868, overdue=1.110)
+2024-08-26 22:20:41,350 - INFO  - Job(id=29, arrival_time=16.217, finish_time=31.642, total_process_time=2.647, due_date=28.537, overdue=3.105)
+2024-08-26 22:20:41,350 - INFO  - Job(id=22, arrival_time=13.622, finish_time=32.582, total_process_time=3.565, due_date=24.038, overdue=8.543)
+2024-08-26 22:20:41,352 - INFO  - Job(id=33, arrival_time=18.180, finish_time=33.451, total_process_time=2.291, due_date=28.688, overdue=4.763)
+2024-08-26 22:20:41,352 - INFO  - Job(id=37, arrival_time=20.468, finish_time=34.602, total_process_time=5.002, due_date=32.996, overdue=1.606)
+2024-08-26 22:20:41,352 - INFO  - Job(id=40, arrival_time=21.340, finish_time=35.084, total_process_time=2.116, due_date=28.881, overdue=6.203)
+2024-08-26 22:20:41,352 - INFO  - Job(id=38, arrival_time=20.530, finish_time=37.812, total_process_time=5.678, due_date=34.220, overdue=3.591)
+2024-08-26 22:20:41,352 - INFO  - Job(id=39, arrival_time=21.285, finish_time=41.334, total_process_time=9.689, due_date=40.159, overdue=1.175)
+2024-08-26 22:20:41,352 - INFO  - total overdue jobs: 20, total overdue urgent jobs: 2, total overdue time: 42.691
